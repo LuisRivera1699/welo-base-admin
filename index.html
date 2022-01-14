@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welo Management System</title>
+    <link href="./css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="login-columns">
+        <div class="login-column logo-panel">
+            <img class="logo" src="./static/images/logo.svg" />
+        </div>
+        <div class="login-column">
+            <div class="login-panel">
+                <div class="login-greeting">
+                    <h1>Bienvenid@ de nuevo!</h1>
+                    <p>Ingresa para acceder a tus funciones de administrador</p>
+                </div>
+                <div class="login-form">
+                    <form action="./pages/admin/dashboard/dashboard.html">
+                        <input type="text" placeholder="Correo electr&oacute;nico" />
+                        <input type="password" placeholder="Contrase&ntilde;a" />
+                        <p><small class="login-error">La contraseña y/o correo ingresados son incorrectos.</small></p>
+                        <p><small><a href="./pages/login/forgot-password.html">Olvidé mi contraseña</a></small></p>
+                        <input type="submit" value="Ingresar">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welo Management System | Dashboard</title>
+    <link href="../../../css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="admin-columns">
+        <div class="admin-column menu-panel">
+            <div class="admin-user">
+                <div class="user-inner">
+                    <img src="../../../static/images/user.svg" alt="" />
+                    <div class="user-data">
+                        <p>Luis Rivera</p>
+                        <p><small>Manager</small></p>
+                    </div>
+                </div>
+                <a href="../../../index.html">
+                    <img src="../../../static/images/logout.svg" alt="" />
+                </a>
+            </div>
+            <hr />
+            <div class="admin-menu">
+                <div class="admin-item">
+                    <img class="item-icon" src="../../../static/images/dashboard.svg" alt="" />
+                    <p>Dashboard</p>
+                </div>
+                <div class="admin-item selected">
+                    <img class="item-icon" src="../../../static/images/forks.svg" alt="" />
+                    <p>Órdenes</p>
+                </div>
+                <div class="admin-item">
+                    <img class="item-icon" src="../../../static/images/receipt.svg" alt="" />
+                    <p>Ventas pasadas</p>
+                </div>
+                <div class="admin-item">
+                    <img class="item-icon" src="../../../static/images/menu.svg" alt="" />
+                    <p>Menú</p>
+                </div>
+                <div class="admin-item">
+                    <img class="item-icon" src="../../../static/images/person.svg" alt="" />
+                    <p>Meseros</p>
+                </div>
+                <div class="admin-item">
+                    <img class="item-icon" src="../../../static/images/table.svg" alt="" />
+                    <p>Mesas</p>
+                </div>
+                <div class="admin-item">
+                    <img class="item-icon" src="../../../static/images/settings.svg" alt="" />
+                    <p>Configuración</p>
+                </div>
+            </div>
+            <hr />
+            <div class="admin-logo">
+                <img class="logo-admin" src="../../../static/images/logo.svg" alt="" />
+            </div>
+        </div>
+        <div class="admin-column admin-panel">
+            <div class="top-columns">
+                <h2 class="admin-title">Orden N° 00000001</h2>
+                <div class="top-columns export-search">
+                    <input class="cash-pay top-item" type="submit" value="Pago en Efectivo" />
+                    <input class="cancel top-item" type="submit" value="Cancelar orden" />
+                </div>
+            </div>
+            <p class="section-text order">Informaci&oacute;n</p>
+            <div>
+                <table>
+                    <tr>
+                        <th>
+                            <div>
+                                <p>N° de Mesa</p>
+                            </div>
+                        </th>
+                        <td>
+                            <div>
+                                <p>001</p>
+                            </div>
+                        </td>
+                        <th>
+                            <div>
+                                <p>Hora de ingreso</p>
+                            </div>
+                        </th>
+                        <td>
+                            <div>
+                                <p>11/11/2021 - 16:00pm</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div>
+                                <p>Comensal</p>
+                            </div>
+                        </th>
+                        <td>
+                            <div>
+                                <p>Luis Rivera D&iacute;az</p>
+                            </div>
+                        </td>
+                        <th>
+                            <div>
+                                <p>Hora de salida</p>
+                            </div>
+                        </th>
+                        <td>
+                            <div>
+                                <p>-</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div>
+                                <p>Descuento total</p>
+                            </div>
+                        </th>
+                        <td>
+                            <div>
+                                <p>S/. 10.00</p>
+                            </div>
+                        </td>
+                        <th>
+                            <div>
+                                <p>Monto total</p>
+                            </div>
+                        </th>
+                        <td>
+                            <div>
+                                <p>S/. 210.00</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div>
+                                <p>Monto a pagar</p>
+                            </div>
+                        </th>
+                        <td>
+                            <div>
+                                <p>S/. 200.00</p>
+                            </div>
+                        </td>
+                        <th>
+                            <div>
+                                <p>Estado</p>
+                            </div>
+                        </th>
+                        <td>
+                            <div>
+                                <p>Pendiente</p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <p class="section-text order">Detalle</p>
+            <div>
+                <table>
+                    <tr>
+                        <th>
+                            <div>
+                                <p>ID de plato</p>
+                            </div>
+                        </th>
+                        <th>
+                            <div>
+                                <p>Plato</p>
+                            </div>
+                        </th>
+                        <th>
+                            <div>
+                                <p>Cant.</p>
+                            </div>
+                        </th>
+                        <th>
+                            <div>
+                                <p>Precio unit.</p>
+                            </div>
+                        </th>
+                        <th>
+                            <div>
+                                <p>Dscto. unit.</p>
+                            </div>
+                        </th>
+                        <th>
+                            <div>
+                                <p>Monto a pagar</p>
+                            </div>
+                        </th>
+                        <th>
+                            <div>
+                                <p>Estado</p>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <p>001</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="noted">
+                                <p>Lomo saltado de carne</p>
+                                <div>
+                                    <img class="note" src="../../../static/images/note.svg" alt="" />
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <p>2</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <p>S/. 55.00</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <p>S/. 5.00</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <p>S/. 100.00</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="status-icontainer">
+                                <img src="../../../static/images/pending.svg" alt="" />
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <p>002</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <p>Aj&iacute; de gallina</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <p>1</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <p>S/. 50.00</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <p>S/. 0.00</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <p>S/. 50.00</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="status-icontainer">
+                                <img src="../../../static/images/pending.svg" alt="" />
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <p>003</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <p>Arroz con pollo</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <p>1</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <p>S/. 50.00</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <p>S/. 0.00</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <p>S/. 50.00</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="status-icontainer">
+                                <img src="../../../static/images/pending.svg" alt="" />
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- NOTE MODAL -->
+    <div class="modal">
+        <div class="modal-content note">
+            <h3>Nota</h3>
+            <p>El lomo saltado lo quiero sin tomate por favor.</p>
+        </div>
+    </div>
+
+    <!-- UPDATE DISH STATUS -->
+    <div class="modal">
+        <div class="modal-content">
+            <h3>Actualizar estado</h3>
+            <div class="change-status-columns">
+                <div class="status-column">
+                    <div>
+                        <img class="status-icontainer" src="../../../static/images/pending.svg" />
+                    </div>
+                    <p>Pendiente</p>
+                </div>
+                <div class="status-column">
+                    <img src="../../../static/images/arrow-right.svg" />
+                </div>
+                <div class="status-column">
+                    <div>
+                        <img class="status-icontainer" src="../../../static/images/cooking.svg" />
+                    </div>
+                    <p>Cocinando</p>
+                </div>
+            </div>
+            <input class="delete up-status" type="submit" value="Eliminar plato" />
+        </div>
+    </div>
+
+    <!-- CASH PAYMENT | UPDATE DISH STATUS CONFIRMATION -->
+    <div class="modal">
+        <div class="modal-content">
+            <h3>Actualizando a estado “Plato listo”</h3>
+            <p>El plato “Lomo saltado de carne será pasado a estado “Plato listo”. Confirme o deniege esta acción.</p>
+            <input class="up-status" type="submit" value="Confirmar" />
+            <input class="cancel down-status" type="submit" value="Cancelar" />
+        </div>
+    </div>
+
+    <!-- CANCEL ORDER | DELETE DISH CONFIRMATION -->
+    <div class="modal">
+        <div class="modal-content">
+            <h3>¿Estás seguro de eliminar el plato?</h3>
+            <p>No podrás deshacer esta acción.</p>
+            <input class="delete up-status" type="submit" value="Eliminar" />
+            <input class="second-button down-status" type="submit" value="No eliminar" />
+        </div>
+    </div>
+
+    <!-- SUCCESS MODAL -->
+    <div class="modal">
+        <div class="modal-content">
+            <div class="icontainer">
+                <img src="../../../static/images/success.svg" alt="" />
+            </div>
+            <h3>¡Enhorabuena! Orden cancelada con éxito.</h3>
+            <input class="success-button up-status" type="submit" value="Aceptar" />
+        </div>
+    </div>
+
+</body>
+
+</html>

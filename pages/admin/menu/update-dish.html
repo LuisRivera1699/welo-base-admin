@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welo Management System | Dashboard</title>
+    <link href="../../../css/styles.css" rel="stylesheet">
+    <link href="../../../css/dropzone.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="admin-columns">
+        <div class="admin-column menu-panel">
+            <div class="admin-user">
+                <div class="user-inner">
+                    <img src="../../../static/images/user.svg" alt="" />
+                    <div class="user-data">
+                        <p>Luis Rivera</p>
+                        <p><small>Manager</small></p>
+                    </div>
+                </div>
+                <a href="../../../index.html">
+                    <img src="../../../static/images/logout.svg" alt="" />
+                </a>
+            </div>
+            <hr />
+            <div class="admin-menu">
+                <div class="admin-item">
+                    <img class="item-icon" src="../../../static/images/dashboard.svg" alt="" />
+                    <p>Dashboard</p>
+                </div>
+                <div class="admin-item">
+                    <img class="item-icon" src="../../../static/images/forks.svg" alt="" />
+                    <p>Órdenes</p>
+                </div>
+                <div class="admin-item">
+                    <img class="item-icon" src="../../../static/images/receipt.svg" alt="" />
+                    <p>Ventas pasadas</p>
+                </div>
+                <div class="admin-item selected">
+                    <img class="item-icon" src="../../../static/images/menu.svg" alt="" />
+                    <p>Menú</p>
+                </div>
+                <div class="admin-item">
+                    <img class="item-icon" src="../../../static/images/person.svg" alt="" />
+                    <p>Meseros</p>
+                </div>
+                <div class="admin-item">
+                    <img class="item-icon" src="../../../static/images/table.svg" alt="" />
+                    <p>Mesas</p>
+                </div>
+                <div class="admin-item">
+                    <img class="item-icon" src="../../../static/images/settings.svg" alt="" />
+                    <p>Configuración</p>
+                </div>
+            </div>
+            <hr />
+            <div class="admin-logo">
+                <img class="logo-admin" src="../../../static/images/logo.svg" alt="" />
+            </div>
+        </div>
+        <div class="admin-column admin-panel">
+            <div class="top-columns">
+                <div class="edit-dish">
+                    <h2 class="edit-title">Editar plato ID 001</h2>
+                    <div class="dish-rate">
+                        <p class="bit-padding">5.0</p>
+                        <img class="star-dish" src="../../../static/images/star-orange.svg" alt="" />
+                    </div>
+                </div>
+                <input class="top-item" type="submit" value="Ver comentarios" />
+            </div>
+            <form>
+                <p class="section-text create">Informaci&oacute;n</p>
+                <div>
+                    <div class="form-columns">
+                        <input class="form-column c2" type="text" placeholder="Nombre" />
+                        <select class="form-column c2">
+                            <option>Categor&iacute;a</option>
+                        </select>
+                    </div>
+                    <div class="form-columns">
+                        <textarea class="form-column c2" placeholder="Descripci&oacute;n corta"></textarea>
+                        <textarea class="form-column c2" placeholder="Descripci&oacute;n larga"></textarea>
+                    </div>
+                </div>
+                <p class="section-text create">Contenido visual</p>
+                <div class="form-columns">
+                    <div class="form-column dz">
+                        <p>Imagen de card</p>
+                        <p><small>Haz click o arrastra una imagen de 200x200px</small></p>
+                    </div>
+                    <div class="form-column exp dz">
+                        <p>Imagen de detalle</p>
+                        <p><small>Haz click o arrastra hasta 3 im&aacute;genes de 400x400px</small></p>
+                    </div>
+                </div>
+                <p class="section-text create">Producci&oacute;n</p>
+                <div>
+                    <div class="form-columns">
+                        <input class="form-column c3" type="number" placeholder="Costo de producci&oacute;n S/." />
+                        <input class="form-column c3" type="number" placeholder="Precio de venta S/." />
+                        <input class="form-column c3" type="number" placeholder="Porcentaje de descuento %" />
+                    </div>
+                    <input type="number" placeholder="Stock" />
+                </div>
+                <div class="form-columns buttons">
+                    <input class="create-button" type="submit" value="Actualizar" />
+                    <input class="delete-button cancel" type="submit" value="Cancelar" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- COMMENTS MODAL -->
+    <div class="modal">
+        <div class="modal-content comment-modal">
+            <div class="modal-export-top">
+                <h3>Comentarios</h3>
+                <p class="export-comments"><small>Exportar</small></p>
+            </div>
+            <div class="comments-cont">
+                <div>
+                    <hr>
+                    <div class="comment-info">
+                        <div class="comment-user">
+                            <img src="../../../static/images/user.svg" alt="" />
+                            <p class="user-data">An&oacute;nimo 1</p>
+                        </div>
+                        <div class="dish-rate">
+                            <p class="bit-padding">5.0</p>
+                            <img class="star-dish" src="../../../static/images/star-orange.svg" alt="" />
+                        </div>
+                    </div>
+                    <hr>
+                    <p class="comment-text">Fue un plato demasiado rico, me gustó bastante el toque de aji que le
+                        pusieron a
+                        la receta.
+                        Sinceramente top top, volvería a pedirlo una y otra vez.</p>
+                </div>
+                <div>
+                    <hr>
+                    <div class="comment-info">
+                        <div class="comment-user">
+                            <img src="../../../static/images/user.svg" alt="" />
+                            <p class="user-data">An&oacute;nimo 2</p>
+                        </div>
+                        <div class="dish-rate">
+                            <p class="bit-padding">5.0</p>
+                            <img class="star-dish" src="../../../static/images/star-orange.svg" alt="" />
+                        </div>
+                    </div>
+                    <hr>
+                    <p class="comment-text">Fue un plato demasiado rico, me gustó bastante el toque de aji que le
+                        pusieron a
+                        la receta.
+                        Sinceramente top top, volvería a pedirlo una y otra vez.</p>
+                </div>
+                <div>
+                    <hr>
+                    <div class="comment-info">
+                        <div class="comment-user">
+                            <img src="../../../static/images/user.svg" alt="" />
+                            <p class="user-data">An&oacute;nimo 3</p>
+                        </div>
+                        <div class="dish-rate">
+                            <p class="bit-padding">5.0</p>
+                            <img class="star-dish" src="../../../static/images/star-orange.svg" alt="" />
+                        </div>
+                    </div>
+                    <hr>
+                    <p class="comment-text">Este usuario no ha emitido comentario.</p>
+                </div>
+                <div>
+                    <hr>
+                    <div class="comment-info">
+                        <div class="comment-user">
+                            <img src="../../../static/images/user.svg" alt="" />
+                            <p class="user-data">An&oacute;nimo 4</p>
+                        </div>
+                        <div class="dish-rate">
+                            <p class="bit-padding">5.0</p>
+                            <img class="star-dish" src="../../../static/images/star-orange.svg" alt="" />
+                        </div>
+                    </div>
+                    <hr>
+                    <p class="comment-text">Fue un plato demasiado rico, me gustó bastante el toque de aji que le
+                        pusieron a
+                        la receta.
+                        Sinceramente top top, volvería a pedirlo una y otra vez.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
